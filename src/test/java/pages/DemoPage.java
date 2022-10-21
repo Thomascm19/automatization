@@ -2,11 +2,11 @@ package pages;
 
 public class DemoPage extends BasePage{
 
-    private String userTextField = "//input[@id='login_field']";
-    private String passwordTextField = "//input[@id='password']";
-    private String sigInButton =  "//body/div[3]/main[1]/div[1]/div[4]/form[1]/div[1]/input[11]";
-    private String menuButton = "//header/div[7]/details[1]/summary[1]/img[1]";
-    private String signOutButton = "//button[contains(text(),'Sign out')]";
+    private String loginModalButton = "/html/body/nav/div[1]/ul/li[5]/a";
+    private String userTextField = "/html/body/div[3]/div/div/div[2]/form/div[1]/input";
+    private String passwordTextField = "/html/body/div[3]/div/div/div[2]/form/div[2]/input";
+    private String sigInButton =  "/html/body/div[3]/div/div/div[3]/button[2]";
+    private String signOutButton = "/html/body/nav/div[1]/ul/li[6]/a";
 
 
     public DemoPage() {
@@ -16,6 +16,10 @@ public class DemoPage extends BasePage{
     public void navigateToDemo() {
 
         navigateTo("https://www.demoblaze.com/index.html");
+    }
+
+    public void clickOpenLoginModal() {
+        clickElement(loginModalButton);
     }
 
     public void enterUser(String user) {
@@ -34,7 +38,6 @@ public class DemoPage extends BasePage{
     }
 
     public void closeSession(){
-        clickElement(menuButton);
         clickElement(signOutButton);
     }
 }

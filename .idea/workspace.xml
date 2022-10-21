@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300057b7-8275-48b2-841c-553d72b62509" name="Changes" comment="feat(Test): Add files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DemoPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DemoStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Demo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DemoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DemoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DemoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DemoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Demo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Demo.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.xml" afterDir="false" />
     </list>

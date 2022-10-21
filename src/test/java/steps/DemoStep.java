@@ -15,13 +15,18 @@ public class DemoStep {
         demoPage.navigateToDemo();
     }
 
-    @When("^the user enter your (.+) and (.+)$")
+    @When("click in the Sig in button and open the login modal")
+    public void openLoginModal(){
+        demoPage.clickOpenLoginModal();
+    }
+
+    @And("^the user enter your (.+) and (.+)$")
     public void enterCredentials(String user, String pass){
         demoPage.enterUser(user);
         demoPage.enterPassword(pass);
     }
 
-    @And("click in the Sig in button and see de home page")
+    @And("click in the Sig in button and see the home page")
     public void enterToDemo(){
 
         demoPage.clickSigInButton();
